@@ -18,7 +18,7 @@ body{
     padding: 20px;
 }
 form{
-    background-color: #c46d99;/*muda a cor do quadrado de login*/
+    background-color: #ffffff;/*muda a cor do quadrado de login*/
     padding: 50px; /*aumenta o espaço de dentro*/
     border-radius: 30px;
     display: flex;
@@ -73,7 +73,7 @@ input{
     padding: 10px 20px;
     border-radius: 10px;
     border: none;
-    background-color: #f1f1f1;
+    background-color: #e3dbde;
 }
 section button:hover {
     background-color: rgb(13, 1, 19);  /*Muda a cor de fundo ao passar o mouse  */

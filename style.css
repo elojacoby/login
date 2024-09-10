@@ -1,0 +1,90 @@
+*{
+    margin: 0;/*espaçamento externo do elemento*/
+    padding: 0;/*espaçamento interno do elemento*/
+    box-sizing: border-box;/*calculo do tamanho total dos elemtnos*/
+}
+
+body{
+    font-family: "Montserrat";
+    color: #610e40;
+    display:flex;  
+    height: 100vh;
+    justify-content: center;/* centro da pagina em cima*/
+    align-items: center;/* centro da pagina do lado*/
+    background-color:#610e40;
+    background-image: white;
+    background-size: cover;
+    background-position: 50%;
+    padding: 20px;
+}
+form{
+    background-color: #c46d99;/*muda a cor do quadrado de login*/
+    padding: 50px; /*aumenta o espaço de dentro*/
+    border-radius: 30px;
+    display: flex;
+    flex-direction:column ;
+    gap:25px;
+    border: solid 1px #610e40;
+
+}
+h1{
+    font-size: 24px;
+}
+
+.barra-horizontal{
+    background-color:#933e6d;
+    height: 5px;
+    width: 210px;
+}
+
+.campo-input{
+    display:flex ;
+    flex-direction: column;/*os elementos ficam embaixo das palavras*/
+    gap:4px;
+}
+.lembrar-me{
+    display: flex; /*o quadrado fica do lado do lembra-me*/
+    gap:5px/*distancia do quadrado do lembrar-me*/
+}
+
+.titulo{
+    display: flex;
+    flex-direction: column;
+    gap:5px;
+}
+
+button{
+    padding:10px ;
+    align-self:center ;
+    width:160px ;
+    border-radius:30px ;
+    background-image: linear-gradient(#fff3e9,#e6a3ca);
+    border: solid 1px #c46d99;
+    border-bottom-width: 4px;
+    border-right-width:4px;
+    font-size: 16px;
+    color: black;
+    text-transform: uppercase;
+    font-weight: 300;/*negrito*/
+    cursor:pointer;
+}
+
+input{
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: none;
+    background-color: #f1f1f1;
+}
+section button:hover {
+    background-color: rgb(13, 1, 19);  /*Muda a cor de fundo ao passar o mouse  */
+    box-shadow: 12px 12px 12px rgb(0, 0, 0); /*Adiciona uma sombra mais intensa */
+}
+
+a{
+    color:rgb(0,174,255);
+    font-weight: 500;
+}
+
+.esqueceu-senha{
+    text-align: center;
+}
